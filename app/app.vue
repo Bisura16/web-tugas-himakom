@@ -274,12 +274,12 @@ const certificates = [
             </div>
 
             <div class="bg-[#030712] p-4 rounded-xl border border-white/5 shadow-inner mb-8">
-              <NuxtImg src="/poster-tugas.jpg" alt="Poster Penugasan"
+              <NuxtImg src="/infografis-bimo.png" alt="Poster Penugasan"
                 class="w-full h-auto rounded-lg border border-white/10" />
             </div>
 
             <div class="flex justify-center">
-              <a href="/poster-tugas.jpg" download
+              <a href="/infografis-bimo.png" download
                 class="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 hover:scale-105 text-yellow-950 font-black py-3 px-8 rounded-full transition-all text-sm shadow-lg shadow-yellow-500/20">
                 <Icon name="mdi:download" class="text-xl" /> Download Infografis
               </a>
