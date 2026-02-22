@@ -328,9 +328,9 @@ const certificates = [
             class="bg-white/[0.02] p-8 rounded-[2rem] border border-white/10 hover:border-blue-500/30 transition-all group">
             <div
               class="w-full aspect-video bg-white/5 rounded-2xl overflow-hidden mb-6 border border-white/5 relative flex items-center justify-center group-hover:border-blue-500/30 transition-all">
-              <NuxtImg :src="cert.image"
-                class="min-w-full min-h-full object-cover -rotate-90 scale-[0.6] grayscale group-hover:grayscale-0 transition-all duration-700" />
-            </div>
+  <NuxtImg :src="cert.image"
+    class="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-700" />
+</div>
             <h4 class="text-2xl font-black mb-2 italic text-white/90">{{ cert.title }}</h4>
             <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-4 italic">{{ cert.issuer }} • {{
               cert.date }}</p>
